@@ -32,7 +32,7 @@ This application supports:
 | JDBC               | Database connectivity    |
 | MySQL              | Database                 |
 | MySQL Connector/J  | JDBC Driver              |
-| IntelliJ / Eclipse | IDE (any Java IDE works) |
+| Eclipse            | IDE (any Java IDE works) |
 
 ---
 
