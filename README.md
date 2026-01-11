@@ -1,9 +1,4 @@
-Here’s a clean, professional **README.md** for your project 👇
-(You can copy-paste this directly into a `README.md` file)
-
----
-
-# 🏨 Hotel Reservation System (Java + MySQL)
+Hotel Reservation System (Java + MySQL)
 
 A **console-based Hotel Reservation System** built using **Java and JDBC** that allows hotel staff to manage room reservations efficiently using a MySQL database.
 
@@ -17,7 +12,7 @@ This application supports:
 
 ---
 
-## 🚀 Features
+## Features
 
 * 📌 Reserve a hotel room
 * 📋 View all current reservations
@@ -29,7 +24,7 @@ This application supports:
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 | Technology         | Purpose                  |
 | ------------------ | ------------------------ |
@@ -41,16 +36,16 @@ This application supports:
 
 ---
 
-## 🗄️ Database Setup
+## Database Setup
 
-### 1️⃣ Create Database
+### 1️ Create Database
 
 ```sql
 CREATE DATABASE hostel_db;
 USE hostel_db;
 ```
 
-### 2️⃣ Create Table
+### 2️ Create Table
 
 ```sql
 CREATE TABLE reservations (
@@ -64,7 +59,7 @@ CREATE TABLE reservations (
 
 ---
 
-## 🔧 JDBC Configuration
+## JDBC Configuration
 
 Update these values inside `HotelReservationSystem.java`:
 
@@ -76,7 +71,7 @@ private static String password = "your_mysql_password";
 
 ---
 
-## 📦 Required JAR
+## Required JAR
 
 Download **MySQL Connector/J** and add it to your project:
 
@@ -86,7 +81,7 @@ Add it to your IDE classpath.
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Start MySQL Server
 2. Create the database and table
@@ -99,7 +94,7 @@ HotelReservationSystem.java
 
 ---
 
-## 🧭 Menu Options
+## Menu Options
 
 ```
 HOTEL MANAGEMENT SYSTEM
@@ -113,7 +108,7 @@ HOTEL MANAGEMENT SYSTEM
 
 ---
 
-## 🧪 Sample Flow
+## Sample Flow
 
 1. Choose **1** → Enter guest name, room number, contact
 2. Choose **2** → View all bookings
@@ -123,14 +118,14 @@ HOTEL MANAGEMENT SYSTEM
 
 ---
 
-## 🔐 Data Safety
+## Data Safety
 
 * Checks if reservation exists before updating or deleting
 * Prevents invalid operations
 
 ---
 
-## 📈 Future Enhancements
+## Future Enhancements
 
 * PreparedStatement (to avoid SQL Injection)
 * Admin login
@@ -140,7 +135,7 @@ HOTEL MANAGEMENT SYSTEM
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Venkateswararao Gandrothu**
 Java Full Stack Developer
